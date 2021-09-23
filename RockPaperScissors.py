@@ -1,4 +1,4 @@
-import math, random, time
+import random, time
 
 #Variables
 keepPlaying = True
