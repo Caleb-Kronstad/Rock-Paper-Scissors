@@ -24,15 +24,15 @@ while (keepPlaying!=False):
         comRand = random.randint(1,3)
         if (comRand==1):
             comRPS = "rock"
-            print("rock")
+            print("Computer: Rock")
             output(plrRPS.lower(), comRPS, keepPlaying)
         elif (comRand==2):
             comRPS = "paper"
-            print("paper")
+            print("Computer: Paper")
             output(plrRPS.lower(), comRPS, keepPlaying)
         elif (comRand==3):
             print("scissors")
-            comRPS = "scissors"
+            comRPS = "Computer: Scissors"
             output(plrRPS.lower(), comRPS, keepPlaying)
     else:
         tryAgain = input("Hm, it doesn't seem like that worked. You can either try again or quit. [Type 'Again' to try again or 'Quit' to quit the game] ")
