@@ -9,7 +9,7 @@ time.sleep(1)
 #RPS Function
 def output(crps, prps, kp):
     if (crps==prps):
-        print("Tie! Try again!")
+        print("Tie! Try again!\n")
     elif ((crps=="rock" and prps=="scissors") or (crps=="paper" and prps=="rock") or (crps=="scissors" and prps=="paper")):
         print("Hah! You lose!\n")
             
