@@ -14,7 +14,7 @@ def output(crps, prps, kp):
         print("Hah! You lose!\n")
             
     elif ((crps=="rock" and prps=="paper") or (crps=="paper" and prps=="scissors") or (crps=="scissors" and prps=="rock")):
-            print("Aw, how did you win? I'm usually really good at this game! Are you cheating?!\n")
+        print("Aw, how did you win? I'm usually really good at this game! Are you cheating?!\n")
 
 #While Loop                
 while (keepPlaying!=False):
@@ -31,15 +31,14 @@ while (keepPlaying!=False):
             print("Computer: Paper")
             output(plrRPS.lower(), comRPS, keepPlaying)
         elif (comRand==3):
-            print("scissors")
-            comRPS = "Computer: Scissors"
+            print("Computer: Scissors")
+            comRPS = "scissors"
             output(plrRPS.lower(), comRPS, keepPlaying)
     else:
-        tryAgain = input("Hm, it doesn't seem like that worked. You can either try again or quit. [Type 'Again' to try again or 'Quit' to quit the game] ")
+        tryAgain = input("Hm, it doesn't seem like that worked. You can either try again or quit. [Type 'Again' to try again or 'Quit' to quit the game]\n")
         if (tryAgain.lower()=="quit"):
             keepPlaying = False
         else:
             print(" ")
     
-        
 print("Thank you for playing! Check out more of my projects at https://github.com/Caleb-Kronstad")
